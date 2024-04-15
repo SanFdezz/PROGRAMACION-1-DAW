@@ -54,7 +54,7 @@ public class ejercicioB4 {
 			
 			nSize=(int)(nameList.size()); // tamaño de la lista de nombres
 			nRandom = (int) (Math.random() * nSize); // nombre random
-			sSize=(int)(nameList.size()); // tamaño de la lista de apellidos
+			sSize=(int)(surnList.size()); // tamaño de la lista de apellidos
 			sRandom = (int) (Math.random() * sSize); // apellido random 
 			
 			// creamos el nombre y lo guardamos en un String
