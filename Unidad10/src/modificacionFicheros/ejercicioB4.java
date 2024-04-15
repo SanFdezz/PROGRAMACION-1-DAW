@@ -61,8 +61,7 @@ public class ejercicioB4 {
 			finalName = nameList.get(nRandom)+" "+surnList.get(sRandom);
 			
 			// escribimos el nombre en el archivo
-			writer.write(finalName);
-			writer.write(" || ");
+			writer.write(finalName+"\n");
 		}
 		
 		// cerramos todos los scanners.
