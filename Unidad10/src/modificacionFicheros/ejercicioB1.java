@@ -6,7 +6,7 @@ public class ejercicioB1 {
 	public static void main(String[] args) {
 		int num; // creamos una variable.
 		// creamos un scanner que permita leer archivos.
-		File f = new File("/Users/spara/eclipse-workspace/Unidad10/Documentos/numeros.txt"); // archivo a recorrer
+		File f = new File("Documentos/numeros.txt"); // archivo a recorrer
 		try {
 			Scanner lect = new Scanner(f); // creamos el scanner
 			int maximo = Integer.MIN_VALUE; // inicializamos el maximo como el mun más pequeño que hay, para q no haya problemas
@@ -23,6 +23,7 @@ public class ejercicioB1 {
 			}
 			// mostramos los resultados al final.
 			System.out.println("El numero más alto es: "+maximo+". Y el numero más bajo es: "+minimo);
+			lect.close();
 			
 		} catch (FileNotFoundException e) { // si detecta la excepción de que no está el archivo indicado:
 			System.out.println("No se ha encontrado el archivo."); // muestra el mensaje.

@@ -33,6 +33,7 @@ public class ejercicioB3 {
                     writer.write("\n");
                 }
 				
+				reader.close();
 				writer.close();
 			} catch (FileNotFoundException e) {
 				System.out.println("El archivo no existe.");
